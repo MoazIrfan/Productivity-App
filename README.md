@@ -7,6 +7,8 @@ The main focus is to build a real application using React!
 
 ![Preview](app-preview-two.jpg?raw=true)
 
+### Projects & Tasks
+
 ![Preview](app-preview.png?raw=true)
 
 
