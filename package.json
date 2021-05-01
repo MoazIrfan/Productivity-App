@@ -1,6 +1,6 @@
 {
-  "name": "todoist",
-  "version": "0.1.0",
+  "name": "prouctivityapp",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "firebase": "^6.2.4",
