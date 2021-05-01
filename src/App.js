@@ -7,17 +7,15 @@ import { Checkbox } from './components/Checkbox';
 
 import { ProjectsProvider, SelectedProjectProvider } from './context';
 
-export const App = ({ darkModeDefault = false }) => {
-  const [darkMode, setDarkMode] = useState(darkModeDefault);
+export const App = () => {
 
   return (
     <SelectedProjectProvider>
       <ProjectsProvider>
-        <main
+        <main 
           data-testid="application"
-          className={darkMode ? 'darkmode' : undefined}
         >
-          <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Header />
           <Router>
             <Route exact path="/" component={Content} />
             <Route exact path="/task/:handle" component={Checkbox} />
